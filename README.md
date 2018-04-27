@@ -19,10 +19,10 @@ graph_results.py<br />
 graph experiment result based on the output of four_intersects.py
 
 gym_env
-  four_intersects_env.py<br />
+  - four_intersects_env.py<br />
   definition of Gym environment, different reward defintion is implemented here
 
-  register.py<br />
+  - register.py<br />
   register the new Gym environment. 10 version of the environment is registered for 10 random sets of traffic  scenario
 
   import.py<br />
