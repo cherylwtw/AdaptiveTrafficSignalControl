@@ -219,7 +219,7 @@ class FourIntersectsEnv(Env):
                     speed = traci.vehicle.getSpeed(vehicle_id)
                     if speed < 2.7:  # 2.7m/s approximately equals to 10km/h
                         slow_vehicle_count += 1
-            queue_junction_average = slow_vehicle_count / len(incoming_lanes)
+#             queue_junction_average = slow_vehicle_count / len(incoming_lanes)
             queue_all_junction += queue_junction_average
 
         waiting_time_all_junction = 0
@@ -227,7 +227,7 @@ class FourIntersectsEnv(Env):
             waiting_time_at_junction_sum = 0
             for lane in incoming_lanes:
                 waiting_time_at_junction_sum += traci.lane.getWaitingTime(lane)
-            waiting_time_junction_average = waiting_time_at_junction_sum / len(incoming_lanes)
+#             waiting_time_junction_average = waiting_time_at_junction_sum / len(incoming_lanes)
             waiting_time_all_junction += waiting_time_junction_average
 
         return queue_all_junction, waiting_time_all_junction
