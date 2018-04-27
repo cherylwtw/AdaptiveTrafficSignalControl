@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2018-04-25 17:26:10.611670 by $Id$
+  options: -n traffic_grid.net.xml -r traffic_grid_train_2.rou.xml -p 18 -l <doubleminus>flow 6 <doubleminus>begin 0 <doubleminus>end 100000 <doubleminus>fringe-factor 10 <doubleminus>seed 13
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="0" begin="0.0" end="100000.0" probability="0.01" from="D11" to="L12"/>
+    <flow id="1" begin="0.0" end="100000.0" probability="0.01" from="D11" to="L14"/>
+    <flow id="2" begin="0.0" end="100000.0" probability="0.01" from="D11" to="D15"/>
+    <flow id="3" begin="0.0" end="100000.0" probability="0.01" from="D11" to="D25"/>
+    <flow id="4" begin="0.0" end="100000.0" probability="0.01" from="D11" to="L33"/>
+    <flow id="5" begin="0.0" end="100000.0" probability="0.01" from="D11" to="L31"/>
+    <flow id="6" begin="0.0" end="100000.0" probability="0.01" from="D11" to="D22"/>
+    <flow id="7" begin="0.0" end="100000.0" probability="0.01" from="D11" to="D12"/>
+    
+    <flow id="8" begin="0.0" end="100000.0" probability="0.01" from="L11" to="L14"/>
+    <flow id="9" begin="0.0" end="100000.0" probability="0.01" from="L11" to="D15"/>
+    <flow id="10" begin="0.0" end="100000.0" probability="0.01" from="L11" to="D25"/>
+    <flow id="11" begin="0.0" end="100000.0" probability="0.01" from="L11" to="L33"/>
+    <flow id="12" begin="0.0" end="100000.0" probability="0.01" from="L11" to="L31"/>
+    <flow id="13" begin="0.0" end="100000.0" probability="0.01" from="L11" to="D22"/>
+    <flow id="14" begin="0.0" end="100000.0" probability="0.01" from="L11" to="D12"/>
+    <flow id="15" begin="0.0" end="100000.0" probability="0.01" from="L11" to="L12"/>
+    
+    
+    <flow id="16" begin="0.0" end="100000.0" probability="0.01" from="L13" to="D15"/>
+    <flow id="17" begin="0.0" end="100000.0" probability="0.01" from="L13" to="D25"/>
+    <flow id="18" begin="0.0" end="100000.0" probability="0.01" from="L13" to="L33"/>
+    <flow id="19" begin="0.0" end="100000.0" probability="0.01" from="L13" to="L31"/>
+    <flow id="20" begin="0.0" end="100000.0" probability="0.01" from="L13" to="D22"/>
+    <flow id="21" begin="0.0" end="100000.0" probability="0.01" from="L13" to="D12"/>
+    <flow id="22" begin="0.0" end="100000.0" probability="0.01" from="L13" to="L12"/>
+    <flow id="23" begin="0.0" end="100000.0" probability="0.01" from="L13" to="L14"/>
+    
+    
+    
+    <flow id="24" begin="0.0" end="100000.0" probability="0.01" from="D16" to="D25"/>
+    <flow id="25" begin="0.0" end="100000.0" probability="0.01" from="D16" to="L33"/>
+    <flow id="26" begin="0.0" end="100000.0" probability="0.01" from="D16" to="L31"/>
+    <flow id="27" begin="0.0" end="100000.0" probability="0.01" from="D16" to="D22"/>
+    <flow id="28" begin="0.0" end="100000.0" probability="0.01" from="D16" to="D12"/>
+    <flow id="29" begin="0.0" end="100000.0" probability="0.01" from="D16" to="L12"/>
+    <flow id="30" begin="0.0" end="100000.0" probability="0.01" from="D16" to="L14"/>
+    <flow id="31" begin="0.0" end="100000.0" probability="0.01" from="D16" to="D15"/>
+    
+    
+    <flow id="32" begin="0.0" end="100000.0" probability="0.01" from="D26" to="L33"/>
+    <flow id="33" begin="0.0" end="100000.0" probability="0.01" from="D26" to="L31"/>
+    <flow id="34" begin="0.0" end="100000.0" probability="0.01" from="D26" to="D22"/>
+    <flow id="35" begin="0.0" end="100000.0" probability="0.01" from="D26" to="D12"/>
+    <flow id="36" begin="0.0" end="100000.0" probability="0.01" from="D26" to="L12"/>
+    <flow id="37" begin="0.0" end="100000.0" probability="0.01" from="D26" to="L14"/>
+    <flow id="38" begin="0.0" end="100000.0" probability="0.01" from="D26" to="D15"/>
+    <flow id="39" begin="0.0" end="100000.0" probability="0.01" from="D26" to="D25"/>
+
+    
+    <flow id="40" begin="0.0" end="100000.0" probability="0.01" from="L34" to="L31"/>
+    <flow id="41" begin="0.0" end="100000.0" probability="0.01" from="L34" to="D22"/>
+    <flow id="42" begin="0.0" end="100000.0" probability="0.01" from="L34" to="D12"/>
+    <flow id="43" begin="0.0" end="100000.0" probability="0.01" from="L34" to="L12"/>
+    <flow id="44" begin="0.0" end="100000.0" probability="0.01" from="L34" to="L14"/>
+    <flow id="45" begin="0.0" end="100000.0" probability="0.01" from="L34" to="D15"/>
+    <flow id="46" begin="0.0" end="100000.0" probability="0.01" from="L34" to="D25"/>
+    <flow id="47" begin="0.0" end="100000.0" probability="0.01" from="L34" to="L33"/>
+    
+    
+
+    <flow id="48" begin="0.0" end="100000.0" probability="0.01" from="L32" to="D22"/>
+    <flow id="49" begin="0.0" end="100000.0" probability="0.01" from="L32" to="D12"/>
+    <flow id="50" begin="0.0" end="100000.0" probability="0.01" from="L32" to="L12"/>
+    <flow id="51" begin="0.0" end="100000.0" probability="0.01" from="L32" to="L14"/>
+    <flow id="52" begin="0.0" end="100000.0" probability="0.01" from="L32" to="D15"/>
+    <flow id="53" begin="0.0" end="100000.0" probability="0.01" from="L32" to="D25"/>
+    <flow id="54" begin="0.0" end="100000.0" probability="0.01" from="L32" to="L33"/>
+    <flow id="55" begin="0.0" end="100000.0" probability="0.01" from="L32" to="L31"/>
+
+    
+    <flow id="56" begin="0.0" end="100000.0" probability="0.01" from="D21" to="D12"/>
+    <flow id="57" begin="0.0" end="100000.0" probability="0.01" from="D21" to="L12"/>
+    <flow id="58" begin="0.0" end="100000.0" probability="0.01" from="D21" to="L14"/>
+    <flow id="59" begin="0.0" end="100000.0" probability="0.01" from="D21" to="D15"/>
+    <flow id="60" begin="0.0" end="100000.0" probability="0.01" from="D21" to="D25"/>
+    <flow id="61" begin="0.0" end="100000.0" probability="0.01" from="D21" to="L33"/>
+    <flow id="62" begin="0.0" end="100000.0" probability="0.01" from="D21" to="L31"/>
+    <flow id="63" begin="0.0" end="100000.0" probability="0.01" from="D21" to="D22"/>
+    
+    
+
+
+</routes>
