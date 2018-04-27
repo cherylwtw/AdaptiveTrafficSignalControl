@@ -6,8 +6,8 @@ State, action definitions are implemented based on the understanding of the pape
 
 Envrionment and Packages:<br />
 A OpenAI Gym (https://gym.openai.com/envs/#classic_control) environment is defined to simulate the environment using the following packages
-  1. Simulation of Urban Mobility, SUMO (http://sumo.dlr.de/index.html) for microscopic traffic simulation
-  2. TraCi (http://sumo.dlr.de/wiki/TraCI) for communication between agents and SUMO in Python
+  - Simulation of Urban Mobility, SUMO (http://sumo.dlr.de/index.html) for microscopic traffic simulation
+  - TraCi (http://sumo.dlr.de/wiki/TraCI) for communication between agents and SUMO in Python
 
 Follow instruction to install SUMO and add environment variable SUMO_HOME (http://sumo.dlr.de/wiki/Installing)
 
@@ -25,9 +25,9 @@ gym_env
   - register.py<br />
   register the new Gym environment. 10 version of the environment is registered for 10 random sets of traffic  scenario
 
-  import.py<br />
+  - import.py<br />
   import the new Gym environment
 
 sumo_env
-  includes all files for traffic simulation
+  - includes all files for traffic simulation
 
