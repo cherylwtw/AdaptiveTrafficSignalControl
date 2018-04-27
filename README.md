@@ -11,7 +11,7 @@ A OpenAI Gym (https://gym.openai.com/envs/#classic_control) environment is defin
 
 Follow instruction to install SUMO and add environment variable SUMO_HOME (http://sumo.dlr.de/wiki/Installing)
 
-Markup :  ### Files ###
+### Files
 four_intersects.py<br />
 definition of RL agents, control of traffic lights using fixed control Q learning and dyna_Q
 
